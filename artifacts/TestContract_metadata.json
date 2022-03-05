@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "counter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"firstsmartcontact.sol": "TestContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"firstsmartcontact.sol": {
+			"keccak256": "0x2faa01365e30f088c1fc3438734e51eaf7d06b9c1913f6dd85903748c17e1a3f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5a93114ea40106865b0f27e4473aa4acf3d058a8c609bbaeb705ba07f5ce488e",
+				"dweb:/ipfs/QmNkK4ywB3HDibhCq9iZwfJGkEojq5zSWTieZXoHTBoo5F"
+			]
+		}
+	},
+	"version": 1
+}
